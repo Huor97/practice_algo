@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap"
+      rel="stylesheet"
+    />
+    <!--link icon sur fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/9ff4db8985.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- page css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- title et icon -->
+    <title>KR-CV</title>
+
+    <link rel="icon" href="./logo cv 2021-06-14 234210.ico" sizes="32x32" />
+  </head>
+  <body>
+    <!-- --------------------creation de navbar------------------------------ -->
+    <!-- une logo, 5 onglets qui sera cacher dans version plus petit que ipad -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- partie logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            class="ms-2 rounded-2"
+            src="./logo lengage/logo cv 2021-06-14 234210.png"
+            alt="logo"
+        /></a>
+        <!-- parti button (bourguer navbar) pour version plus petit que ipad -->
+        <button
+          class="navbar-toggler navbar-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- partie menu les 5 onglets -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="
+              ongletMenu
+              navbar-nav
+              col-12
+              d-flex
+              justify-content-lg-evenly
+              me-auto
+              mb-2 mb-lg-0
+            "
+          >
+            <!-- onglet cv -->
+            <li class="nav-item">
+              <a class="nav-link link-info" aria-current="page" href="#pageCV"
+                >CV(PDF)</a
+              >
+            </li>
+            <!-- onglet compétence -->
+            <li class="nav-item">
+              <a class="nav-link link-info" href="#pageCompetence"
+                >Compétence</a
+              >
+            </li>
+            <!-- onglet Expériences -->
+            <li class="nav-item">
+              <a class="nav-link link-info" href="#pageExpériences"
+                >Expériences</a
+              >
+            </li>
+            <!-- onglet loisirs -->
+            <li class="nav-item">
+              <a class="nav-link link-info" href="#pageLoisirs">Loisirs</a>
+            </li>
+            <!-- onglet contact -->
+            <li class="nav-item">
+              <a class="nav-link link-info" href="#pageContact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- --------------------------------------- fin navbar -->
+
+    <!-- ----------------------------- main -->
+    <div class="container">
+      <!-- ------------------------------------------------------------------------- pag1 -->
+      <div
+        class="
+          col-lg-12 col-md-12 col-sm-12 col-12
+          row
+          m-0
+          justify-content-center
+          divParantPage1
+        "
+      >
+        <!-- -----------------------parti à gauch -->
+        <div class="col-lg-4 col-md-12 col-sm-12 align-self-center photoPage1">
+          <!-- image pérsonag; il est à gouch -->
+          <img
+            class="col-lg-12 col-md-8 col-sm-8 p-3 rounded-circle"
+            src="./logo lengage/zuanofpagk2a.jpeg"
+            alt="image person"
+          />
+        </div>
+        <!-- parti à droit -->
+        <div
+          class="col-lg-7 col-md-12 col-sm-12 col-12 row justify-content-center"
+        >
+          <!-- titre: prénom et nom -->
+          <h1
+            class="
+              col-lg-10 col-md-12 col-sm-8 col-8
+              ms-lg-4
+              mt-lg-5
+              text-lg-start text-md-center text-sm-center text-center
+              titrePage1
+            "
+          >
+            Rouhullah Karimi
+          </h1>
+          <!-- seus titre: post -->
+          <p
+            class="
+              col-lg-10 col-md-12 col-sm-8
+              ms-lg-4
+              col-12
+              text-lg-start text-sm-center text-center
+              paragraphPost
+            "
+          >
+            Développeur web
+          </p>
+          <!-- tiré entre titre seus titre et liste -->
+          <hr class="col-sm-8 col-12 hrPage1" />
+
+          <!-- ----------------- list -->
+          <!-- titr: compétence -->
+          <h2
+            class="
+              col-lg-10 col-md-8 col-sm-8 col-12
+              ms-lg-4
+              text-lg-start text-md-center
+              competence
+            "
+          >
+            compétence
+          </h2>
+          <!--   list de compétence  -->
+          <ul class="row listCompetence">
+            <li class="col-lg-4 col-md-6 col-sm-6 col-6">Java</li>
+            <li class="col-lg-4 col-md-6 col-sm-6 col-6">PHP</li>
+            <li class="col-lg-4 col-md-6 col-sm-6 col-6">HTML, CSS</li>
+            <li class="col-lg-4 col-md-6 col-sm-6 col-6">Python</li>
+            <li class="col-lg-4 col-md-6 col-sm-6 col-6">MySQL</li>
+            <li class="col-lg-4 col-md-6 col-sm-6 col-6">JavaScript</li>
+            <li class="col-lg-4 col-md-6 col-sm-6 col-6">C</li>
+            <li class="col-lg-4 col-md-6 col-sm-6 col-6">Lucidchart (UML)</li>
+            <li
+              class="
+                col-lg-4 col-md-9
+                text-lg-start text-md-center
+                col-sm-6 col-6
+              "
+            >
+              Git, Github
+            </li>
+          </ul>
+          <!-- 3 button -->
+          <div class="col-lg-12 col-md-12 containerTroisButton">
+            <!-- cv button -->
+            <a href="#pageCV">
+              <img
+                class="col-lg-4 rounded-circle"
+                src="./logo lengage/cvIcon.png"
+                alt="image person"
+              />
+            </a>
+            <!-- contact button -->
+            <a href="#">
+              <img
+                class="col-lg-4 rounded-circle"
+                src="./logo lengage/contactIcon.png"
+                alt="image person"
+              />
+            </a>
+            <!-- loisir button -->
+            <a href="#">
+              <img
+                class="col-lg-4 rounded-circle"
+                src="./logo lengage/iconLoisir.png"
+                alt="image person"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------------------------------------------------------------- férmétur page1 -->
+
+      <hr class="col-lg-12" />
+
+      <!-- ------------------------------------------------------------------------------ page2 -->
+      <!-- dans page2: avoir une photos de cv à gauche. avoir titre et text à gauche -->
+      <div id="pageCV" class="divParentPage2 row">
+        <!-- parti à gauche -->
+        <h1
+          class="
+            col-lg-12 col-md-12 col-sm-12
+            text-lg-center text-md-center text-sm-center text-center
+          "
+        >
+          CV {PDF}
+        </h1>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 partiPhotosCV">
+          <a href="#"
+            ><img
+              class="col-md-9 col-sm-9 col-9"
+              src="cv image.png"
+              alt="image de cv"
+          /></a>
+          <div class="col-md-12 col-sm-12 col-12 divButtonCV">
+            <a href="#" class="text-decoration-none me-md-2"
+              ><i class="fas fa-download"></i></a
+            >Télécharger en PDF
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------------------------ férméteur page2 -->
+      <hr />
+      <!-- ------------------------------------------------------------------------- page 3 -->
+      <!-- div parant -->
+
+      <div
+        id="pageCompetence"
+        class="row justify-content-center divPrinsipalPag3"
+      >
+        <!-- div enfant 1 -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 m-3 wrapper">
+          <div class="typing-demo col-lg-12 col-md-12 col-sm-12 col-12">
+            COMPETENCE
+          </div>
+          <!-- fin div enfant 1 -->
+        </div>
+
+        <!-- div enfant 2 -->
+        <div
+          class="
+            page3ItemList
+            row
+            col-lg-5 col-md-12 col-sm-12 col-12
+            align-self-center
+          "
+        >
+          <!-- image logo partie à gauche -->
+          <ul class="col-lg-12 col-md-12 col-sm-12 col-12">
+            <li>
+              <a href="#">
+                <!-- Html image 1 -->
+                <img src="./logo lengage/logoHTML.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- CSS image 2 -->
+                <img src="./logo lengage/logoCSS.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- JavaScript image 3 -->
+                <img src="./logo lengage/logoJavaScripte.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- React image 4 -->
+                <img src="./logo lengage/logoReact.jpg"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- Bootstrape image 5 -->
+                <img src="./logo lengage/logoBootsTrap.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- Worde presse image 6 -->
+                <img src="./logo lengage/logoWordpress.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <!-- fin div enfant 2 -->
+
+        <!-- div enfant 3 -->
+        <div
+          class="
+            page3ItemList
+            row
+            justify-content-center
+            col-lg-5 col-md-12 col-sm-12 col-12
+          "
+        >
+          <!-- image logo partie à droit -->
+
+          <ul class="col-lg-12 col-md-12">
+            <li>
+              <a href="#">
+                <!-- Java image 1 -->
+                <img src="./logo lengage/javaLogo.jpg"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- Python image 2 -->
+                <img src="./logo lengage/python.jpg"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- Php image 3 -->
+                <img class="bg-dark" src="./logo lengage/LogoPhp.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- Git image 4 -->
+                <img class="bg-dark" src="./logo lengage/logoGit.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- UML image 5 -->
+                <img class="bg-dark" src="./logo lengage/UML_Lucidcart.png"
+              /></a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- MySql image 6 -->
+                <img class="bg-dark" src="./logo lengage/MySql.png"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- fin div enfant 3 -->
+      <!-- ------------------------------------------------------------ férmetrut page 3 -->
+      <hr />
+      <!-- ---------------------------------------------------------------------- page 4 -->
+      <!-- Expérience -->
+      <!-- div principal qui contier deux enfant: parti gauche et droit -->
+      <div id="pageExpériences" class="row mt-2 pageExperience m-0">
+        <!-- enfant gauch -->
+        <!-- partie presantation entrepris  -->
+        <h1
+          class="
+            col-lg-12 col-md-12 col-sm-12 col-12
+            text-lg-center text-md-center text-sm-center text-center
+          "
+        >
+          EXPERIENCES
+        </h1>
+        <div class="justify-content-center row m-0">
+          <!-- BAAM desktop et ipad, display none dans version mobil -->
+          <div
+            class="
+              divBaam
+              col-lg-4 col-md-5 col-11
+              bg-success bg-gradient
+              justify-content-center
+              align-self-center
+              text-lg-end
+              rounded
+            "
+          >
+            <h2>2018</h2>
+            <h4>Traducteur</h4>
+            <h3>BAAM</h3>
+            <p class="col-lg-12 col-md-12">
+              Permanences Juridiques Asile traduceur pour les personne qui ne
+              peut pas parler le français pour traduire son dossier en français
+            </p>
+          </div>
+          <!-- partie informatique pour version desktop -->
+          <div
+            class="col-lg-4 col-md-5 col-sm-12 col-12 parantHelloGolfWargeek"
+          >
+            <!-- hello golf -->
+
+            <div
+              class="
+                col-lg-12 col-md-12 col-sm-12 col-12
+                bg-primary bg-gradient
+                rounded
+              "
+            >
+              <h2 class="m-2">2021</h2>
+              <h4 class="m-2">Développeur web et web mobile</h4>
+              <h3 class="m-2">HELLO GOLF</h3>
+              <p class="col-lg-12 col-md-10 col-sm-12 col-12 m-2">
+                Développeur web et web mobile en apprentissage
+              </p>
+            </div>
+            <hr />
+            <!-- BAAM mobil, il est display none dans version desktop et iPad -->
+            <div
+              class="
+                divBaam1
+                col-lg-4 col-md-5 col-sm-12 col-12
+                mb-4
+                bg-success bg-gradient
+                justify-content-center
+                align-self-center
+                text-lg-end
+                rounded
+              "
+            >
+              <h2 class="m-2">2018</h2>
+              <h4 class="m-2">Traducteur</h4>
+              <h3 class="m-2">BAAM</h3>
+              <p class="col-lg-12 col-md-12 col-sm-12 col-12 m-2">
+                Permanences Juridiques Asile traduceur pour les personne qui ne
+                peut pas parler le français pour traduire son dossier en
+                français
+              </p>
+            </div>
+            <!-- WARGEEK -->
+            <div
+              class="
+                col-lg-12 col-md-12 col-sm-12 col-12
+                rounded
+                bg-primary bg-gradient
+              "
+            >
+              <h2 class="m-2">2015</h2>
+              <h4 class="m-2">Assisstance/Support pour les consoles</h4>
+              <h3 class="m-2">WAR GEEK</h3>
+              <p class="col-lg-12 col-md-10 col-sm-12 col-12 m-2">
+                Réaliser la maintnece informatique et technique des consoles de
+                jeux vidéo et des ordinateurs
+              </p>
+            </div>
+          </div>
+          <!-- fermer partie presantation entrepris -->
+        </div>
+
+        <!-- ------------------------------------------------------------ férmetrut page 4 -->
+        <hr />
+        <!-- ------------------------------------------------------------  page 5 -->
+        <!-- page loisir -->
+        <div id="pageLoisirs" class="pageLoisir row m-0">
+          <!-- centre d'intérer -->
+          <div
+            class="col-lg-6 col-md-12 col-sm-12 col-12 pageLoisirTitre mt-lg-3"
+          >
+            <h1
+              class="
+                col-lg-12 col-md-12 col-sm-12 col-12
+                mb-lg-3 mb-md-3 mb-sm-3 mb-3
+                text-lg-center text-md-center text-sm-center text-center
+              "
+            >
+              Loisirs
+            </h1>
+            <div class="row">
+              <!-- cinéma -->
+              <div
+                class="
+                  col-lg-6 col-md-6 col-sm-12 col-12
+                  maintxt
+                  mb-lg-3 mb-md-3 mb-sm-3 mb-3
+                "
+              >
+                <div
+                  class="
+                    col-lg-12 col-md-12 col-sm-12 col-12
+                    hover hover-1
+                    rounded
+                  "
+                >
+                  <img
+                    src="./images_loisirs/film_scienc_fection.jpg"
+                    alt="film scienc fection"
+                  />
+                  <div class="hover-1-content px-5 py-4">
+                    <p class="hover-1-description mb-0">Cinéma</p>
+                  </div>
+                </div>
+              </div>
+              <!-- jeux d'échecs -->
+              <div
+                class="
+                  col-lg-6 col-md-6 col-sm-12 col-12
+                  mb-lg-3 mb-md-3 mb-sm-3 mb-3
+                  jeuxChess
+                "
+              >
+                <div
+                  class="
+                    col-lg-12 col-md-12 col-sm-12 col-12
+                    hover hover-1
+                    rounded
+                  "
+                >
+                  <img
+                    src="./images_loisirs/jeux_chess.jpg"
+                    alt="jeux chess échec"
+                  />
+                  <div class="hover-1-content px-5 py-4">
+                    <p class="hover-1-description mb-0">Jeux d'échecs</p>
+                  </div>
+                </div>
+              </div>
+              <!-- sport foot -->
+              <div
+                class="col-lg-6 col-md-6 col-sm-12 col-12 mt-lg-4 mb-3 jeuxFoot"
+              >
+                <div
+                  class="
+                    col-lg-12 col-md-12 col-sm-12 col-12
+                    hover hover-1
+                    rounded
+                  "
+                >
+                  <img
+                    src="./images_loisirs/sport_foot.jpg"
+                    alt="Sport footballe"
+                  />
+                  <div class="hover-1-content px-5 py-4">
+                    <p class="hover-1-description mb-0">Football</p>
+                  </div>
+                </div>
+              </div>
+              <!-- sport ping pong -->
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-lg-4">
+                <div
+                  class="
+                    col-lg-12 col-md-12 col-sm-12 col-12
+                    hover hover-1
+                    rounded
+                  "
+                >
+                  <img
+                    src="./images_loisirs/sport_ping-pong.jpg"
+                    alt="film scienc fection"
+                  />
+                  <div class="hover-1-content px-5 py-4">
+                    <p class="hover-1-description mb-0">Ping-pong</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- à propo de moi -->
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12 rounded mt-3 mb-5">
+            <h1
+              class="
+                col-lg-12 col-md-12 col-sm-12 col-12
+                mb-lg-3 mb-md-3 mb-sm-3 mb-3
+                text-lg-center text-md-center text-sm-center text-center
+              "
+            >
+              propo de moi
+            </h1>
+            <p class="m-2 fs-5 mt-2 mb-5">
+              Cela signifie l'amour de savoir et l'amour de rechercher beaucoup
+              de choses que je vois et entends.
+              <br />
+
+              Si je veux nommer un intérêt de premier ordre, je dois dire la
+              liberté. <br />
+              Deuxièmement, nous arrivons aux dérivés de la liberté, qui peuvent
+              être la liberté d'expression et le système d'exploitation
+              GNU/Linux. <br />
+              Les ordinateurs et les réseaux m'ont toujours attiré en raison de
+              leurs propriétés. J'aime écrire des scripts (JavaScript, Python ou
+              autre) et lire (des livres, des sites Web et presque tout le
+              reste).
+              <br />
+              J'aime jouer échec, football et Ping Pong. Je regarde aussi les
+              filmes science fiction.
+            </p>
+          </div>
+        </div>
+        <!-- ------------------------------------------------------------ férmetrut page 5 -->
+        <hr />
+        <!-- ------------------------------------------------------------ page 6 -->
+        <div id="pageContact" class="row m-0">
+          <h1
+            class="
+              col-lg-12 col-md-12 col-sm-12 col-12
+              text-lg-center text-md-center text-sm-center text-center
+            "
+          >
+            CONTACTE
+          </h1>
+          <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <p class="fs-3 mt-4">
+              Un renseignement ? <br />
+              Un devis ?
+            </p>
+
+            <p>
+              Conseils, création de site Internet, webdesign, nous aurons
+              toujours une solution adaptée à vos besoins
+            </p>
+            <div class="mb-3">
+              <div class="row divContactEmailNom">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Nom*"
+                    aria-label="Nom*"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email*"
+                    aria-label="Email*"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="FormControlTextarea1"
+                rows="3"
+                placeholder="Votre message"
+              ></textarea>
+              <div class="col-auto mt-3">
+                <button type="submit" class="btn btn-primary mb-3">
+                  Envoyer
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-12 justify-content-center align-self-center"
+          >
+            <div
+              class="
+                col-lg-12 col-md-12 col-sm-12 col-12
+                text-lg-center text-md-center text-sm-center text-center
+                fs-4
+              "
+            >
+              <p class="Numerotéléphon col-lg-3 col-md-3 col-sm-5 col-5">
+                0700000000
+              </p>
+
+              <p class="email col-sm-12 col-12">monemai@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------------ férmetrut page 6 -->
+    </div>
+
+    <!-- ----------------------------- fin main -->
+
+    <!-- -----------------------------------------------------------footer -->
+    <!-- creation de footer avec 4 icon de reseaux socieux -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-white">
+      <!-- Section: Social media -->
+      <section
+        class="
+          d-flex
+          justify-content-center justify-content-lg-between
+          p-4
+          border-bottom
+        "
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Connectez-vous avec moi sur les réseaux sociaux :</span>
+        </div>
+        <!-- Left fermeteur -->
+
+        <!-- Right -->
+        <div>
+          <!-- facebook -->
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i
+          ></a>
+          <!-- twitter -->
+          <a href="" class="me-4 text-reset"> <i class="fab fa-twitter"></i></a>
+          <!-- stackoverflow -->
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-stack-overflow"></i
+          ></a>
+
+          <!-- instagrame -->
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i
+          ></a>
+          <!-- linkedin -->
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i
+          ></a>
+          <!-- github -->
+          <a href="" class="me-4 text-reset"> <i class="fab fa-github"></i></a>
+        </div>
+        <!-- Right fermeteur -->
+      </section>
+      <!-- Section: Social media fermeteur -->
+
+      <!-- Copyright -->
+      <div class="text-center p-4 lisance">© 2021 Copyright:text</div>
+    </footer>
+    <!-- ---------------------------------------------------------------------------------- -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

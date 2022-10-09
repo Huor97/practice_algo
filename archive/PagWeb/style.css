@@ -1,0 +1,23 @@
+ /* Pour les nouvelles polices de caractères */
+ @font-face {
+    font-family: "Monserrat-ExtraLight";
+   src: url('./font/Montserrat-ExtraLight.ttf') format(truetype);
+
+}    
+@font-face {
+    font-family: "Monserrat-Regular";
+   src: url('./font/Montserrat-Regular.ttf') format(truetype);
+} 
+
+body{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav ongler */
+.navbar-nav{
+    color: rgb(0, 174, 255);    
+}

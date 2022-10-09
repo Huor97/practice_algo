@@ -1,0 +1,53 @@
+/* ----------------- page style pour projet générator aléatoir */
+body {
+  margin: 0;
+  padding: 0;
+}
+/* color aléatoir */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color {
+  background-color: #39c13c;
+  width: 25%;
+  height: 300px;
+  margin-top: 10%;
+  margin-left: 10%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background: none;
+  outline: none;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#hex {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+/* citation aleatoir */
+.citationParant {
+  width: 25%;
+  background-color: rgba(71, 110, 97, 0.883);
+  height: 300px;
+  margin-top: 10%;
+  margin-right: 10%;
+  text-align: center;
+  border-radius: 5px;
+}
+.citation {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+}
