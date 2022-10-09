@@ -1,3 +1,32 @@
+function reverseWords(str){
+  let i = 0;
+  let j = 0;
+  let tMots = [""];
+
+  while (i < str.length) {
+    if (str[i] === " ") {
+      j = j + 1;
+      tMots[j] = "";
+    } else {
+      tMots[j] += str[i];
+    }
+    i++;
+  }
+  let n = j;
+  i = 0;
+  let phrase = "";
+  while (i <= n) {
+    if(i === n){
+      phrase += tMots[n - i];
+    }else{
+    phrase += tMots[n - i] + " ";
+      }
+    i++;
+  }
+  console.log(phrase)
+  return phrase; 
+}
+reverseWords("hello monde!")
 // ************************ 9.returner dans un tableau les valeurs des tableaux entrée sans valeur doubleau
 /*
 function mergeArrays(arr1, arr2){
