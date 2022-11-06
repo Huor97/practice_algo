@@ -7,7 +7,12 @@ output : ueihttam
 */
 
 function reverseString(str) {
-  return str;
+  let i = str.length-1
+  let strRivers=""
+  while(i>=0){
+    strRivers += str[i]
+    i--
+  }
+  console.log(strRivers)
 }
-
-console.log(reverseString("Rouh"));
+reverseString("Matthieu");
