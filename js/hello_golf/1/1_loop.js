@@ -1,6 +1,6 @@
 /* 
 Définir une variable nommée loop
-Définir une variable nommée limit, et lui assigner la valeurde 10
+Définir une variable nommée limit, et lui assigner la valeur de 10
 Créez une boucle avec une variable i commençant à 0 et s'incrémentant à chaque itération de la boucle. 
 La boucle doit s'exécuter aussi longtemps que i est strictement inférieur à limit.
 */

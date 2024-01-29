@@ -5,3 +5,12 @@ Exemple :
 Input: "hello"
 Output: "ehllo"
 */
+
+function alphabetSoup(str) {
+
+    let ordreByAlphabet = str.split("").sort();
+
+    return ordreByAlphabet;
+}
+
+console.log(alphabetSoup("hello"))
