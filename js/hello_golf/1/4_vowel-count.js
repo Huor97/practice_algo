@@ -8,3 +8,12 @@ Output: 2
 Input: "what a good exercice"
 Output: 8
 */
+
+// nombre voyel in string
+// rigex pour trouver les voyel
+
+function vowelCount(str) {
+    return str.match(/[aeiouy]/gi).length
+}
+
+console.log(vowelCount("hello"));
